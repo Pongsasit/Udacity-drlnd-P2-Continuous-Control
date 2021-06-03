@@ -35,7 +35,12 @@ The barrier for solving the second version of the environment is slightly differ
 - This yields an **average score** for each episode (where the average is over all 20 agents).
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
-
+### Dependencies
+To set up your Python environment correctly follow [THIS LINK](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+To run this project you will need the following Python libraries:\
+    - numpy (tested with 1.19.5)\
+    - torch (tested with 1.8.1+cu111)\
+    - matplotlib (tested with 3.4.0)\
 ### Getting Started
 
 1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
