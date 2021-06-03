@@ -19,7 +19,6 @@ The observation space consists of 33 variables corresponding to position, rotati
 ### Distributed Training
 
 For this project, we will provide you with two separate versions of the Unity environment:
-- The first version contains a single agent.
 - The second version contains 20 identical agents, each with its own copy of the environment.  
 
 The second version is useful for algorithms like [PPO](https://arxiv.org/pdf/1707.06347.pdf), [A3C](https://arxiv.org/pdf/1602.01783.pdf), and [D4PG](https://openreview.net/pdf?id=SyZipzbCb) that use multiple (non-interacting, parallel) copies of the same agent to distribute the task of gathering experience.  
@@ -36,7 +35,7 @@ The barrier for solving the second version of the environment is slightly differ
 
 The environment is considered solved, when the average (over 100 episodes) of those average scores is at least +30. 
 ### Dependencies
-To set up your Python environment correctly follow [THIS LINK](https://github.com/udacity/deep-reinforcement-learning#dependencies)
+To set up your Python environment correctly follow [THIS LINK](https://github.com/udacity/deep-reinforcement-learning#dependencies) \
 To run this project you will need the following Python libraries:\
     - numpy (tested with 1.19.5)\
     - torch (tested with 1.8.1+cu111)\
